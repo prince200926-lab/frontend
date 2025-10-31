@@ -2,9 +2,10 @@
   publish = "."
   
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "https://project-main-vbi6.onrender.com/api/:splat"
   status = 200
+  force = true
 
 [[headers]]
   for = "/*"
